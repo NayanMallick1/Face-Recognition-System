@@ -10,7 +10,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from retinaface import RetinaFace
 
 # Load stored embeddings
-embeddings_path = "face_embeddings.pkl"
+embeddings_path = "face_embeddings0.pkl"
 if not os.path.exists(embeddings_path):
     print("Error: Face embeddings file not found. Run `train_face_recognizer.py` first.")
     exit()
